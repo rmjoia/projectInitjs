@@ -1,0 +1,11 @@
+
+#ignore thumbnails created by windows
+Thumbs.db
+# bower packages
+bower_components/*
+public/lib/*
+# node modules
+node_modules*
+# testing 
+[Tt]est
+[Tt]ests
