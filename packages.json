@@ -1,0 +1,33 @@
+{
+    "name": "AudaSource.link",
+    "version": "1.0.0",
+    "description": "Solução para submissão de salvados online e disponibilização de dashboards",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "Ricardo Melo Joia",
+    "license": "Prorpietary",
+    "dependencies": {
+        "body-parser": "^1.14.1",
+        "cookie-parser": "^1.4.1",
+        "ejs": "^2.3.4",
+        "express": "^4.13.3",
+        "express-session": "^1.13.0",
+        "mssql": "^3.0.0",
+        "passport": "^0.3.2",
+        "passport-local": "^1.0.0"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.0",
+        "gulp-inject": "^3.0.0",
+        "gulp-jscs": "^3.0.2",
+        "gulp-jshint": "^2.0.0",
+        "gulp-nodemon": "^2.0.6",
+        "gulp-sass": "^2.1.1",
+        "jshint": "^2.8.0",
+        "jshint-stylish": "^2.1.0",
+        "wiredep": "^3.0.0"
+    }
+}
